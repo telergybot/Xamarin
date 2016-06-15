@@ -1,13 +1,12 @@
 local function run(msg, matches)
 local text = [[
-🚀 ربات ضد اسپم زامارین
+🚀بات ضد اسپم اپسون
 
 🔘 کاربردی ترین ربات مدیریت گروه
 
- 🔸 مدیر ربات : @AmirDark 
- 🔸 پشتیبانی : @Pediw
- 🔸 کانال : @XamarinCH
- 🔸 سایت : xamarinbot.tk
+ 🔸 مدیر ربات : @mr_flat
+ 🔸 پشتیبانی : @mr_flat
+ 
 ِ
 ]]
 send_document(get_receiver(msg), "files/logo.gif", ok_cb, false)
@@ -15,7 +14,7 @@ return text
 end 
 return {
   patterns = {
-    "^[!/#][Xx]amarin$",
+    "^[!/#][Ee]pson$",
   }, 
   run = run,
 }
