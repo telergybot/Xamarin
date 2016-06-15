@@ -146,7 +146,7 @@ local function run(msg, matches)
       end
     end
 
-    if matches[2] == "xamarin" then
+    if matches[2] == "epson" then
       if not is_sudo(msg) then
         return "تنها مدیر ربات میتواند!"
       else
@@ -174,7 +174,7 @@ return {
   patterns = {
   --  "^[!/](stats)$",
  --   "^[!/](stats) (gp) (%d+)",
-    "^[!/#](stats) (xamarin)"
+    "^[!/#](stats) (epson)"
     }, 
   run = run,
   pre_process = pre_process
