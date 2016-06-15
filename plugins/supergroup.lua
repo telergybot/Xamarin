@@ -40,7 +40,7 @@ end
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-	  local text = '✅ سوپر گروه به لیست گروه های\nتحت مدیریت زامارین اضافه شد.'
+	  local text = '✅ سوپر گروه به لیست گروه های تحت مدیریت epson اضافه شد.'
 return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -64,7 +64,7 @@ local function check_member_superrem(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
-	  local text = '🚫 سوپر گروه از لیست گروه های\nتحت مدیریت زامارین حذف شد.'
+	  local text = '🚫سوپر گروه از لیست گروه های تحت مدیریت epson حذف شد.'
  return reply_msg(msg.id, text, ok_cb, false)
     end
   end
