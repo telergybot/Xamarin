@@ -268,7 +268,7 @@ function create_config( )
     "webshot",
     "tools",
     },
-    sudo_users = {119626024,140540176,42771218},--Sudo users
+    sudo_users = {226238411,0,0},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[
@@ -349,7 +349,7 @@ function create_config( )
     help_text = [[ ]],
 	help_text_super =[[
 	
-📝 ليست دستورات زامارین :
+📝لیست دیتورات اپسون  :
 
 🚫 حذف کردن کاربر
 !kick [یوزرنیم/یوزر آی دی]
@@ -499,7 +499,7 @@ function create_config( )
 !tools
 
 💎 دریافت اطلاعات ربات
-!xamarin
+!epson
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 
